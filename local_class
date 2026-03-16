@@ -1,0 +1,19 @@
+#include <iostream>
+
+
+void display() {
+    class Test {
+    public:
+        void show() {
+            cout << "This is local class";
+        }
+    };
+
+    Test obj;
+    obj.show();
+}
+
+int main() {
+    display();
+    return 0;
+}
